@@ -1,0 +1,19 @@
+/* Images.css*/
+
+.image {
+    text-align: center;
+    padding: 20px;
+}
+.image img{
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+.image h1{
+    color: #333;
+    font-size: 24px;
+}

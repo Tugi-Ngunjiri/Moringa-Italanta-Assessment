@@ -1,12 +1,15 @@
-import React from 'react';
-
-import './App.css';
+import './App.css'
+import Images from './Images/Images';
+ 
 function App() {
   return (
-    <div>
-      <h1>App</h1></div>
-  )
+    <div className="App">
+      < Images />
+      <h1>
+        
+      </h1>
+      </div>
+  );
 }
-
 
 export default App;
