@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
+//importing modules
+import express from "express"
+import path from "path"
+import exphbs from 'express-handlebars'
+
+//importing Css
 import './App.css';
+
+//Express Server's instance
+const app = express();
+
+const PORT = process.env.PORT || 3000;
+
+//Listening
+app.listen(PORT, () => console.log(`Server started running on PORT ${PORT}`))
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div></div>
   );
 }
 
