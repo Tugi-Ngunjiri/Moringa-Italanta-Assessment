@@ -17,6 +17,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -46,7 +47,6 @@
   },
   "description": "## By Tugi Ngunjiri",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tugi-Ngunjiri/Moringa-Italanta-Assessment.git"

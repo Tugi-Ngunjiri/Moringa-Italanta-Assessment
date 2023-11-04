@@ -1,9 +1,9 @@
 import React  ,{ useState} from 'react';
 import './App.css';
-import Images from './Components/Images/Images';
+import Images from '../Components/Images/Images';
 import Views from './Components/Views/Views';
-import Assets from './Components/Assets/Assets'
-import Features from './Components/Features/Features';
+import Assets from '../Components/Assets/ScrollEffect'
+import Features from '../Components/Features/Features';
 
 
 function App() {
