@@ -1,7 +1,10 @@
 import React from 'react'
-  //DropDown
+  
 function Features() {
   return (
+    // Navbar and Dropdown
+    <div>
+      <nav>
     <div className="dropdown">
  <button className="dropbtn">Dropdown</button>
  <div>
@@ -10,6 +13,8 @@ function Features() {
     <a href="#" className="active">Social Impact</a>
 
  </div>
+    </div>
+    </nav>
     </div>
   )
 }
