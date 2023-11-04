@@ -3,6 +3,8 @@
 .image {
     text-align: center;
     padding: 20px;
+    position: absolute;
+    background-image: url('https://res.cloudinary.com/dyl3rncv3/image/upload/v1679982347/elewa-group-website/hero-Images/dark-to-light_xrat5g.jpg');
 }
 .image img{
     width: 100%;

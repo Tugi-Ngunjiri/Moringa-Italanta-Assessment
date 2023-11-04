@@ -1,15 +1,16 @@
-import './App.css'
-import Images from './Images/Images';
- 
+import React  from 'react';
+import './App.css';
+import Images from './Components/Images/Images';
+import Views from './Components/Views/Views';
+
 function App() {
   return (
-    <div className="App">
-      < Images />
-      <h1>
-        
-      </h1>
+    <div>
+      <Images/>
+      <Views />
       </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
