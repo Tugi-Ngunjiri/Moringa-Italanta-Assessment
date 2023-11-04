@@ -1,23 +1,12 @@
-//importing modules
-import express from "express"
-import path from "path"
-import exphbs from 'express-handlebars'
+import React from 'react';
 
-//importing Css
 import './App.css';
-
-//Express Server's instance
-const app = express();
-
-const PORT = process.env.PORT || 3000;
-
-//Listening
-app.listen(PORT, () => console.log(`Server started running on PORT ${PORT}`))
-
 function App() {
   return (
-    <div></div>
-  );
+    <div>
+      <h1>App</h1></div>
+  )
 }
+
 
 export default App;
