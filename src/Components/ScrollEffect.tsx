@@ -1,6 +1,5 @@
 import React from 'react';
 import './ScrollEffect.css'
-// Adding a scroll effect 
 import {Element, scroller } from 'react-scroll';
 function ScrollEffect() {
     const ScrollEffect: React.FC= () =>{

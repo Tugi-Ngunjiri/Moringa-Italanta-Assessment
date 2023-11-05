@@ -1,11 +1,10 @@
 import React  ,{ useState} from 'react';
 import './App.css';
-import Images from './Images';
 import Features from './Features';
-
-
-
+import Images from './Images';
+import './ScrollEffect'
 function App() {
+  
 const [images, setImages] = useState<string[]>([])
 const addImage = (imageUrl: string) =>{
   setImages((prevImages) => [imageUrl, ...prevImages]);
@@ -33,8 +32,11 @@ const addImage = (imageUrl: string) =>{
 }
   return (
     <div>
-      <Images/>
-      <Features />
+      < Features />
+      < Images />
+      < ScrollEffect />
+    
+    
       </div>
   )
 }
