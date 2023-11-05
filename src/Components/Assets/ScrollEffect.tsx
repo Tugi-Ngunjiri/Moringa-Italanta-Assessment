@@ -1,6 +1,6 @@
 import React from 'react';
 // Adding a scroll effect 
-import {Element, scroller } from 'react-scroll';
+import {Element, scroller } from 'react-dom';
 function ScrollEffect() {
 const ScrollToElement = () => {
     const scrollToElement = () => {

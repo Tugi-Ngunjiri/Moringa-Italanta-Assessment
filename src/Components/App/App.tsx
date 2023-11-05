@@ -3,6 +3,7 @@ import './App.css';
 import Images from '../Images/Images';
 import Assets from '../Assets/ScrollEffect'
 import Features from '../Features/Features';
+import WebPack from '../Webpack/WebPack'
 
 
 function App() {
@@ -36,6 +37,7 @@ const addImage = (imageUrl: string) =>{
       <Images/>
       < Assets />
       <Features />
+      <WebPack />
       </div>
   )
 }

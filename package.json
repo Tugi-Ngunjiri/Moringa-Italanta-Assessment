@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.60",
-    "@types/react": "^18.2.34",
+    "@types/react": "^18.2.35",
     "@types/react-dom": "^18.2.14",
     "browserify-zlib": "^0.2.0",
     "exphbs": "^1.2.0",
@@ -16,12 +16,13 @@
     "express-handlebars": "^7.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^3.0.1",
     "react-scroll": "^1.9.0",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack": "^4.47.0"
   },
   "scripts": {
+    "magic": "webpack",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -56,5 +57,8 @@
   "bugs": {
     "url": "https://github.com/Tugi-Ngunjiri/Moringa-Italanta-Assessment/issues"
   },
-  "homepage": "https://github.com/Tugi-Ngunjiri/Moringa-Italanta-Assessment#readme"
+  "homepage": "https://github.com/Tugi-Ngunjiri/Moringa-Italanta-Assessment#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }

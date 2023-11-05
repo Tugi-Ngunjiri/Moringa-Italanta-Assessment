@@ -1,17 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './Components/App/App';
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
+import ReactDOM from "react-dom";
 
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+ReactDOM.render(
+  <div>
+    <h1>
+      Hello, Welcome to Reeact and TypeScript
+    </h1>
+  </div>,
+  document.getElementById("root")
 );
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-
