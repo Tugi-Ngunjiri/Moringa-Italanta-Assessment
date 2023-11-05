@@ -8,8 +8,7 @@ Tugi Ngunjiri
 ISC
 
  ## Small Project Description
-This is a simple web application that allows users to create, read and update their profiles. It uses Node.js for the backend server, Express
-
+This is a simple web application that allows users to  view elewa grou website . It uses Node.js for the backend serve.
 ## Technologies used
 - React for frontend.
 - Typescript for code Simplicity.
