@@ -30,7 +30,11 @@ This is a simple web application that allows users to  view elewa grou website .
 ## Pushing changes to GIT
 -Run Git add .
 -Run Git commit -m (' emoji' commit message).
+-Emoji documentation from GitMoji.dev
+-https://gitmoji.dev/
 - Run Git Push
+
+
 
 
 ## --End of Projet --
