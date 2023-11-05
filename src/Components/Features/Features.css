@@ -1,0 +1,39 @@
+/* Style or the dropdown container*/
+.dropdown{
+    position: relative;
+    display: inline-block,
+}
+
+/* Style for the dropdown button*/
+.dropdownbtn{
+    background-color: #34989b;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown:hover{
+    background-color: #293a46;
+
+}
+
+/* Style for the dropdown content*/
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Style for individual dropdown items*/
+.dropdown-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Style for dropdown item on hover*/
+.dropdown-content a:hover 
+{background-color: #f2f2f2}

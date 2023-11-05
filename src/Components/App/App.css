@@ -1,0 +1,36 @@
+/* styling the whole app */
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color :beige;
+  padding:20px;
+}
+ /* styling the general AddImages */
+ .AddImages {
+  margin-top: 20px;
+}
+/* Styling the AddImages Form */
+.AddImages form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styling the AddImages Input */
+.AddImages input{
+  padding: 10px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+
+/* styling the AddImages button */
+background-color: #1d2a32;
+color: white;
+padding: 10px 20px;
+font-size: 16px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+
+
+}

@@ -1,9 +1,8 @@
 import React  ,{ useState} from 'react';
 import './App.css';
-import Images from '../Components/Images/Images';
-import Views from './Components/Views/Views';
-import Assets from '../Components/Assets/ScrollEffect'
-import Features from '../Components/Features/Features';
+import Images from '../Images/Images';
+import Assets from '../Assets/ScrollEffect'
+import Features from '../Features/Features';
 
 
 function App() {
@@ -37,7 +36,6 @@ const addImage = (imageUrl: string) =>{
       <Images/>
       < Assets />
       <Features />
-      <Views />
       </div>
   )
 }

@@ -1,22 +1,30 @@
-import React from 'react'
-  
+ // Navbar and Dropdown
+type Feature ={
+  title: string;
+  link: string;
+};
+
+ const features: Feature[] =[
+  {title:"Invest Us",link:"#"},
+  {title:"About Us",link:"#"},
+  {title:"Social Impact",link:"#" }
+
+ ];
+
 function Features() {
   return (
-    // Navbar and Dropdown
-    <div>
-      <nav>
-    <div className="dropdown">
- <button className="dropbtn">Dropdown</button>
- <div>
-    <a href="#" className="active">Invest Us</a>
-    <a href="#" className="active">AboUt Us</a>
-    <a href="#" className="active">Social Impact</a>
-
- </div>
-    </div>
+    <nav>
+      <div className="dropdown">
+    <button  className="dropbtn">Dropdown</button>
+      </div>
+      {features.map((feature, index) =>(
+        <a key={index} href={feature.link} className="active">
+          {feature.title}
+        </a>
+      ) )}
     </nav>
-    </div>
-  )
-}
+  )}
+
+
 
 export default Features
