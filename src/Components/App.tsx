@@ -1,9 +1,8 @@
 import React  ,{ useState} from 'react';
 import './App.css';
-import Images from '../Images/Images';
-import Assets from '../Assets/ScrollEffect'
-import Features from '../Features/Features';
-import WebPack from '../Webpack/WebPack'
+import Images from './Images';
+import Features from './Features';
+
 
 
 function App() {
@@ -35,9 +34,7 @@ const addImage = (imageUrl: string) =>{
   return (
     <div>
       <Images/>
-      < Assets />
       <Features />
-      <WebPack />
       </div>
   )
 }

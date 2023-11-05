@@ -1,14 +1,16 @@
 import React from 'react';
+import './ScrollEffect.css'
 // Adding a scroll effect 
-import {Element, scroller } from 'react-dom';
+import {Element, scroller } from 'react-scroll';
 function ScrollEffect() {
+    const ScrollEffect: React.FC= () =>{
 const ScrollToElement = () => {
     const scrollToElement = () => {
         // This is the element you want to scroll to
         scroller.scrollTo('elementToCrollTo', {
             duration: 800,
             delay: 0,
-            smooth: 'easInOutQuad',
+            smooth: 'easeInOutQuad',
         }) };
 };
 return (
@@ -26,5 +28,5 @@ return (
     </div>
   )
 }
-
+}
 export default ScrollEffect

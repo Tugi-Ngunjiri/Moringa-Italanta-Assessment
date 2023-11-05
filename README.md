@@ -20,7 +20,7 @@ This is a simple web application that allows users to  view elewa grou website .
  - Install node modules by running npm install in the project folder.
  - cd into src  and Components(to get app website)
  - Add the necessary dependancies for the wbsite in te src
- (Assets, Features, images , Weback , typescript-react-app with a html file iside it)
+ (Assets, Features, images ,  typescript-react-app with a html file iside it)
  - install webpack , react-scroll and react-dom.
  - run npm start to see the website on localhost:3000
 
