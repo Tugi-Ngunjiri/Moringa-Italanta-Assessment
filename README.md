@@ -19,9 +19,7 @@ This is a simple web application that allows users to  view elewa grou website .
  - Run  npx create-react-app Moringa-Italanta-Assessment --template typescript
  - Install node modules by running npm install in the project folder.
  - cd into src  and Components(to get app website)
- - Add the necessary dependancies for the wbsite in te src
- (Assets, Features, images ,  typescript-react-app with a html file iside it)
- - install webpack , react-scroll and react-dom.
+ - Add the necessary dependancies for the wbsite in the Src and Components( App.tsx, App.Css, Features.Css, Fatures.tsx, Images.css ,images.tsx, ScrollEffect.css, ScrollEffect.tsx ,index.css, index.tsx)
  - run npm start to see the website on localhost:3000
 
  ## Project Submisson
@@ -34,6 +32,8 @@ This is a simple web application that allows users to  view elewa grou website .
 -https://gitmoji.dev/
 - Run Git Push
 
+## Problems
+- The site view in the local host has issues with npm install and npm start..
 
 
 
