@@ -12,7 +12,7 @@ This is a simple web application that allows users to  view elewa grou website .
 ## Technologies used
 - React for frontend.
 - Typescript for code Simplicity.
-- Css for Styling.
+- Css for Styling
 
 ## React set up with Typescript
  - Run npm install .
