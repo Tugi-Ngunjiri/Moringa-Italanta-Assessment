@@ -6,11 +6,11 @@ function Features() {
     title: string;
     link: string;
   };
-  
+ 
    const features: Feature[] =[
-    {title:"Invest Us",link:"#"},
-    {title:"About Us",link:"#"},
-    {title:"Social Impact",link:"#" }
+    {title:"Invest Us",link:"# Invest Us"},
+    {title:"About Us",link:"# About Us"},
+    {title:"Social Impact",link:"# Social Impact" }
   
    ];
   return (
@@ -18,8 +18,7 @@ function Features() {
      <div>
     <div  >
       <img src= "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679650530/elewa-team_digqu3.jpg"  alt="Image"  >
-        
-      </img>
+         </img>
       </div>
     <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1679982347/elewa-group-website/hero-Images/dark-to-light_xrat5g.jpg"  alt="Image"></img>
     </div>
