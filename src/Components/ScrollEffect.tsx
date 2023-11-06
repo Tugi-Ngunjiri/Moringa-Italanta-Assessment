@@ -1,31 +1,31 @@
-import React from 'react';
 import './ScrollEffect.css'
-import {Element, scroller } from 'react-scroll';
-function ScrollEffect() {
-    const ScrollEffect: React.FC= () =>{
-const ScrollToElement = () => {
-    const scrollToElement = () => {
-        // This is the element you want to scroll to
-        scroller.scrollTo('elementToCrollTo', {
-            duration: 800,
-            delay: 0,
-            smooth: 'easeInOutQuad',
-        }) };
-};
-return (
-    <div>
-        <button onClick={ScrollToElement}>Scroll to Element</button>
-        <Element name="elementToScrollTo">
-        <div className="scroll-effect-container">
-            <h1>Scroll Down to See the Effect</h1>
-    </div>
-    </Element>
-    <div  className="content">
-        <p>This is some content on the page</p>
 
-    </div>
+import React, { useRef} from 'react'
+import './ScrollEffect.css'
+
+function ScrollEffect() {
+ const containerRef = useRef<HTMLDivElement | null>(null);
+  const ScrollEffect = () =>{
+    if(containerRef.current){
+        containerRef.current.scrollIntoView({
+         behavior: 'smooth',
+        });
+    }
+  };
+
+  return (
+    <div>
+        <button onClick={ScrollEffect}>Scroll to Element</button>
+        <div>
+            <h1> Scroll Doown to See the effect</h1>
+        </div>
+        <div>
+            <div ref={containerRef}>
+                <p>This is some content on the page</p>
+            </div>
+        </div>
     </div>
   )
 }
-}
+
 export default ScrollEffect

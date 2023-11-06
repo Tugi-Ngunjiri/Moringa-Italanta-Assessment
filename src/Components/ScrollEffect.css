@@ -1,38 +1,19 @@
-/* Style for the button*/
-.button {
-    background-color: #224054;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-/* styling hover for button*/
-.button:hover {
-    background-color: #3e8e41;
-
-}
-
-/* Style for the scroll-effect container */
+/* ScrollEffect.css */
 .scroll-effect-container{
-    background-color: white;
-    padding: 20px;
-    text-align: center;
+    height: 500px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3 ease-in-out;
 }
 
-/*  style for scroll-effect-container*/
 .scroll-effect-container h1{
     font-size: 24px;
-    margin: 0;
+    color: #2f5b73;
+    text-align: center;
 }
 
-/* style for the content section */
-.content {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .content p {
-    font-size: 16px;
-    margin: 0;
-  }
+button {
+    margin: 20px 0;
+}
