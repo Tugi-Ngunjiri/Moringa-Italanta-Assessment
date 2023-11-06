@@ -15,7 +15,7 @@ MIT
 - React for frontend.
 - Typescript for code Simplicity.
 - Css for Styling
-
+- Node Js for Set Up
 ## React set up with Typescript
  - Run npm install .
  - Run  npx create-react-app Moringa-Italanta-Assessment --template typescript
