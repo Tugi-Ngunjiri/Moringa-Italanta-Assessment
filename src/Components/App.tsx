@@ -34,7 +34,7 @@ const addImage = (imageUrl: string) =>{
     <div>
       < Features />
       < Images />
-      < ScrollEffect />
+    
     
     
       </div>
