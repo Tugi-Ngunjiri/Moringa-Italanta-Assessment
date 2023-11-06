@@ -7,7 +7,10 @@ Tugi Ngunjiri
 ##  Liscence  
 MIT 
  ## Small Project Description
-This is a simple web application that allows users to  view elewa grou website . It uses Node.js for the backend serve.
+- This is a simple web application that allows users to  view elewa grou website . It uses Node.js for the backend serve.
+## Key Details
+- I Have commented on My code.
+- I have give my code a good structure ( How it is presented or viewed)
 ## Technologies used
 - React for frontend.
 - Typescript for code Simplicity.

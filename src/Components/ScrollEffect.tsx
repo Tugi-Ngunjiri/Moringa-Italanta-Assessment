@@ -9,9 +9,8 @@ function ScrollEffect() {
     if(containerRef.current){
         containerRef.current.scrollIntoView({
          behavior: 'smooth',
-        });
-    }
-  };
+        });}
+      };
 
   return (
     <div>
