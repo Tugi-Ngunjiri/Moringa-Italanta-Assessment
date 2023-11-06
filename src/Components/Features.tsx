@@ -28,8 +28,8 @@ function Features() {
     <img src="https://res.cloudinary.com/dyl3rncv3/image/upload/v1679982347/elewa-group-website/hero-Images/dark-to-light_xrat5g.jpg"  alt="Image">
       <div>
      
-        <p>HOW TO RECOGNIZE AN ELEWA MEMBER</p>
-        <h1>  Dependable Creative, Suportive , Open Minded and Fun *</h1>
+        <p>HOW TO REOGNIZE AN ELEWA MEMBER</p>
+        <h1>  Dependable CReative, Suportive , Open Minded and Fun *</h1>
       </div>
     </img>
     
