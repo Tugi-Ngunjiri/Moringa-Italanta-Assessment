@@ -15,6 +15,10 @@ function Features() {
    ];
   return (
     <nav>
+      <div >
+      <img src= "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679650530/elewa-team_digqu3.jpg"  alt="Image"></img>
+     <div>
+      <img src= "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679910469/elewa-group-website/hero-Images/pexels-bg-edit_bb4znx.jpg"  alt="Image"></img>
       <div className="dropdown">
     <button  className="dropbtn">Dropdown</button>
       </div>
@@ -23,6 +27,8 @@ function Features() {
           {feature.title}
         </a>
       ) )}
+      </div>
+      </div>
     </nav>
   )}
 
