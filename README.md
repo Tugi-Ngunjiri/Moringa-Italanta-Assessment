@@ -1,4 +1,4 @@
-## moringa-italanta-assessment Porject
+## Moringa-Italanta-Assessment Prject
 -Creating an Elewa group website
 
 ## Project By
