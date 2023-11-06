@@ -1,5 +1,5 @@
 ## moringa-italanta-assessment Porject
--Creatting an Elewa group website
+-Creating an Elewa group website
 
 ## Project By
 Tugi Ngunjiri
